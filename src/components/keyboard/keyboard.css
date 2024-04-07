@@ -1,0 +1,32 @@
+button {
+    font-family: 'Hypermarket Exp W00 Regular';
+    font-size: 1.5rem;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;;
+}
+
+button:hover {
+    background-color: #818181;
+    color: #fff;
+}
+
+button:disabled {
+    background-color: #333333;
+    color: #fff;
+    cursor: not-allowed;
+}
+
+.keyboard {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 10px;
+    grid-auto-flow: dense;
+    justify-content: center; 
+    align-items: center;
+  }
+  

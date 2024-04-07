@@ -1,0 +1,15 @@
+.Word {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    font-family: 'Hypermarket Exp W00 Regular';
+}
+
+.foundWord {
+    color: #fff;
+    font-family: 'Hypermarket Exp W00 Regular';
+    font-size: 1.5rem;
+    text-align: center;
+}
+
